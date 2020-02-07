@@ -52,10 +52,7 @@ nav ul li{
     flex-direction: column;
 }
 
-#downArrow {
-    text-align: center;
-}
-button {
+#heroArrow {
     position: absolute;
     top: 85%;
     text-align: center;
