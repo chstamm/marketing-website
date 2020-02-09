@@ -169,10 +169,8 @@ figcaption {
 }
 
 #photos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .photoTile {
