@@ -13,7 +13,7 @@
   }
 
 html {
-    /* change rem to 10px */
+    /* changed 1rem to 10px */
     font-size: 62.5%;
 }
 
@@ -62,6 +62,8 @@ nav ul li{
 }
 
 #heroText{
+    max-width: 90rem;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,7 +99,7 @@ nav ul li{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5rem;
+    padding: 9rem;
 }
 
 .pageButton {
@@ -110,6 +112,10 @@ nav ul li{
     font-weight: 400;
     text-transform: uppercase;
     text-decoration: underline;
+}
+
+.pageButton:hover {
+    background-color: var(--background);
 }
 
 #tiles {
@@ -165,12 +171,13 @@ figcaption {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5rem;
+    padding: 8rem;
 }
 
 #photos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    margin: 0 0 6rem 0;
 }
 
 .photoTile {
@@ -181,3 +188,74 @@ figcaption {
     width: 100%;
 }
 
+#color-wrapper {
+    background-color: var(--purple);
+}
+
+footer {
+    max-width: 90rem;
+    margin: 0 auto;
+    color: var(--white);
+    padding: 10rem 0;
+}
+
+#topOfFooter{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 0 10rem 0;
+}
+
+#topOfFooter h1 {
+    text-transform: uppercase;
+    font-size: 8rem;
+}
+
+#topOfFooter h2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+#topOfFooter a{
+    font-size: 2.5rem;
+    font-weight: 200;
+    color: var(--white);
+}
+
+#topOfFooter a:hover {
+    color: var(--background);
+}
+
+#mediaIcons {
+    display: flex;
+    font-size: 3rem;
+}
+
+#mediaIcons div {
+    padding: 3rem 2rem 3rem 0;
+}
+
+#columns {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
+
+#columns h3{
+    font-size: 2.5rem;
+    font-weight: 200;
+    padding: 0 0 0 0;
+}
+
+#columns ul{
+    font-size: 1.5rem;
+    font-weight: 200;
+    font-style: italic;
+    padding: 3rem 0;
+}
+
+#columns ul li{
+    list-style: none;
+    line-height: 4rem;
+}
