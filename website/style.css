@@ -232,7 +232,7 @@ footer {
 }
 
 #mediaIcons div {
-    padding: 3rem 2rem 3rem 0;
+    padding: 3rem 1rem 3rem 0;
 }
 
 #columns {
@@ -259,3 +259,80 @@ footer {
     list-style: none;
     line-height: 4rem;
 }
+
+@media only screen and (max-width: 700px) {
+    #topSection {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header {
+        padding-bottom: 2rem;
+    }
+    
+    #heroText h1{
+        font-size: 5rem;
+    }
+    
+    #heroText h2{
+        display: none;
+    }
+
+    #booksGenre {
+        padding: 2rem;
+    }
+
+    #fullPage2 section{
+        margin: 10rem 0;
+    }
+    
+    #photoGal {
+        padding: 2rem;
+    }
+
+    #photos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 0 3rem 0;
+    }
+    footer {
+        padding: 5rem;
+    }
+
+  }
+
+
+
+  @media only screen and (max-width: 500px) {
+    #heroText h1{
+        font-size: 4rem;
+        line-height: 5rem;
+    }
+
+    nav ul{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    nav ul li{
+        font-size: 2rem;
+        padding: 1.5rem 2rem;
+    }
+
+    #tiles {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #photos {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 0 2rem 0;
+    }
+
+    footer {
+        padding: 2rem;
+    }
+  }
