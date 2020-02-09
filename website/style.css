@@ -123,7 +123,7 @@ nav ul li{
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    padding: 2rem;
+    padding: 1.5rem;
     position: relative;
 }
 
@@ -159,3 +159,27 @@ figcaption {
     text-transform: uppercase;
     font-weight: 400;
 }
+
+#photoGal {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem;
+}
+
+#photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.photoTile {
+    padding: 1.5rem;
+}
+
+.photoTile img{
+    width: 100%;
+}
+
