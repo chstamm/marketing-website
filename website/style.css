@@ -21,6 +21,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+
 #fullPage1 {
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.7);
@@ -34,6 +35,12 @@ body {
     color: var(--white);
     display: flex;
     justify-content: space-between;
+    text-transform: uppercase;
+    margin: 1rem;
+}
+
+header {
+    font-size: 2rem;
 }
 
 nav ul{
@@ -43,6 +50,8 @@ nav ul{
 nav ul li{
     text-decoration: none;
     list-style: none;
+    font-size: 1.5rem;
+    padding-left: 3rem;
 }
 
 #heroSection {
@@ -52,10 +61,37 @@ nav ul li{
     flex-direction: column;
 }
 
+#heroText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column; 
+    top: 40%;
+    position: absolute;
+}
+
+#heroText h1{
+    text-transform: capitalize;
+    font-size: 7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 7.5rem;
+}
+
+#heroText h2{
+    font-size: 2.5rem;
+    font-weight: 200;
+    margin: 2rem;
+}
+
 #heroArrow {
     position: absolute;
-    top: 85%;
+    top: 90%;
     text-align: center;
+    background-color: none;
+    font-size: 5rem;
+    
 }
 
 #fullPage2 {
