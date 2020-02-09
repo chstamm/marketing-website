@@ -49,4 +49,5 @@ We will be using git throughout the semester.  Each project much be forked and 
 - [ ] When you have completed the website, submit your repository URL
 
 The URL you used for layout is: http://www.booktradercafe.net/
+
 URL of Marketing Website: https://stammersthepanda.netlify.com/dgm_2780/
