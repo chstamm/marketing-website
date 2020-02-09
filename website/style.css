@@ -45,10 +45,10 @@ header {
 
 nav ul{
     display: flex;
+    flex-wrap: wrap;
 }
 
 nav ul li{
-    text-decoration: none;
     list-style: none;
     font-size: 1.5rem;
     padding-left: 3rem;
@@ -91,7 +91,52 @@ nav ul li{
     text-align: center;
     background-color: none;
     font-size: 5rem;
-    
+}
+
+#booksGenre {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem;
+}
+
+.pageButton {
+    margin: 0 0 2.5rem 0;
+    padding: 2.5rem;
+    border: solid var(--black) .2rem;
+    background-color: var(--white);
+    border-radius: 4.5rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+#tiles {
+    display: flex;
+    justify-content: center;
+}
+
+.genreTile {
+    margin: 2.5rem 0 0 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 2rem;
+    position: relative;
+}
+
+.genreTile img {
+    width: 100%;
+}
+
+figcaption {
+    color: var(--white);
+    position: absolute;
+    top: 80%;
+    font-size: 1.5rem;
 }
 
 #fullPage2 {
